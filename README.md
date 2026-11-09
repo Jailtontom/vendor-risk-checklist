@@ -26,13 +26,14 @@ Small institutions depend on a few technology providers, and one provider failur
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to suggest a change |
 
-PDF version and more resources: https://techfinanceadvisor.com
+PDF version: [Vendor-Risk-Checklist-v1.2.pdf](Vendor-Risk-Checklist-v1.2.pdf). Read online: https://techfinanceadvisor.com/vendor-risk-checklist
 
 ## How to use it
 
 1. Use it before signing, at renewal, and once a year for your highest-risk providers.
 2. A "no" is not a failure: it is a gap to discuss with the provider, document, and track until closed.
 3. Scale the effort to the potential harm: not every provider needs every question.
+4. A control that exists is not the same as evidence you can rely on: for your highest-risk providers, check whether the evidence behind each answer supports the decision you are making (to sign, renew or keep relying on the provider).
 
 ## Sources
 
@@ -42,6 +43,16 @@ PDF version and more resources: https://techfinanceadvisor.com
 - Proposed Third-Party Risk Management Guidance, 91 FR 58536 (September 15, 2026).
 - Joint Statement on Community Banks' Engagement with Core Service Providers (September 11, 2026).
 - U.S. Department of Justice, Guidance on Web Accessibility and the ADA (March 2022).
+
+## Practitioner feedback
+
+> “A thoughtful and practical resource, particularly for smaller institutions that may not have dedicated third-party risk teams.” — Neil P. Osnato, Founder, Persistence Analytics Group LLC
+
+*Shared as professional feedback. It is not an independent certification or endorsement of the checklist's regulatory completeness.*
+
+## Acknowledgments
+
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Any remaining errors are the author's.
 
 ## Feedback
 

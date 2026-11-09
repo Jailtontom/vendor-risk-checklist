@@ -1,6 +1,6 @@
 # Vendor Risk Checklist for Community Banks and Credit Unions
 
-*Version 1.1 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
+*Version 1.2 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
 
 ## Why this checklist
 
@@ -16,6 +16,8 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - Scale the effort to the potential harm: not every provider needs every question.
 
+- A control that exists is not the same as evidence you can rely on: for your highest-risk providers, check whether the evidence behind each answer supports the decision you are making (to sign, renew or keep relying on the provider).
+
 ## 1. Planning
 
 - [ ] **1.** Which customer data, systems and payment flows will this provider touch?
@@ -24,7 +26,7 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - [ ] **3.** How many realistic alternative providers exist, and how hard would it be to switch?
 
-- [ ] **4.** Does this service depend on other providers (cloud, data centers, subcontractors)?
+- [ ] **4.** Does this service depend on other providers (cloud, data centers, telecommunications, subcontractors), and do any of our other critical providers depend on the same ones?
 
 - [ ] **5.** Who inside the institution will own this relationship, and do they have time and skills for it?
 
@@ -36,7 +38,7 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 ## 2. Due diligence and selection
 
-- [ ] **9.** Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries?
+- [ ] **9.** Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries, and do the reports' scope, coverage period and exceptions actually cover the services we use?
 
 - [ ] **10.** How many security incidents and outages has the provider had in the last 24 months, and how were they handled?
 
@@ -84,7 +86,7 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - [ ] **30.** How often are high-risk relationships reviewed, and who signs off?
 
-- [ ] **31.** Are issues found with a provider tracked until they are closed?
+- [ ] **31.** Are issues found with a provider tracked until they are closed, and if a material issue stays open, who has authority to accept it, based on what evidence, and until when?
 
 - [ ] **32.** Is the institution's own staff trained to manage the provider, rather than depending on the provider's own staff?
 
@@ -94,13 +96,13 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - [ ] **34.** Do we track incident notification times and root-cause reports from the provider?
 
-- [ ] **35.** Have recovery and failover been tested in the last 12 months, with results we can see?
+- [ ] **35.** Have recovery and failover been tested in the last 12 months, and did the actual recovery time and data loss meet our own requirements (RTO and RPO)?
 
 - [ ] **36.** Do we review new end-of-support components and security advisories that affect us?
 
 - [ ] **37.** Do invoices still reconcile with the services we receive?
 
-- [ ] **38.** Have the provider's subcontractors, ownership or financial condition changed?
+- [ ] **38.** Have the provider's subcontractors, ownership or financial condition changed, and is there a defined trigger to revisit the original risk assessment when they do?
 
 - [ ] **39.** Do we track accessibility complaints and defects, and does each new release keep the agreed accessibility level?
 
@@ -117,6 +119,16 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 - [ ] **44.** What happens to our data at the provider after exit (return, deletion, confirmation)?
 
 - [ ] **45.** Could we exit in an emergency (provider failure or major breach), not only at renewal?
+
+## Practitioner feedback
+
+> “A thoughtful and practical resource, particularly for smaller institutions that may not have dedicated third-party risk teams.” — Neil P. Osnato, Founder, Persistence Analytics Group LLC
+
+*Shared as professional feedback. It is not an independent certification or endorsement of the checklist's regulatory completeness.*
+
+## Acknowledgments
+
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Any remaining errors are the author's.
 
 ## Disclaimer
 
@@ -137,6 +149,8 @@ This checklist is a free, non-binding operational aid based on public U.S. inter
 - U.S. Department of Justice, Guidance on Web Accessibility and the ADA (March 2022): ada.gov/resources/web-guidance
 
 ## Version history
+
+- 1.2 (November 2026): refined questions 4, 9, 31, 35 and 38 and added a note on evidence to "How to use it", based on practitioner feedback; added practitioner feedback and acknowledgments.
 
 - 1.1 (November 2026): corrected the date of the 2023 incident and added two sources.
 
