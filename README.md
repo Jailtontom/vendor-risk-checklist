@@ -23,11 +23,11 @@ Small institutions depend on a few technology providers, and one provider failur
 | File | What it is |
 |---|---|
 | [CHECKLIST.md](CHECKLIST.md) | The full checklist (read online) |
-| [checklist.csv](checklist.csv) | Questions 1–45 with columns for answer, owner and notes — open in Excel or Google Sheets |
+| [checklist.csv](checklist.csv) | The 50 questions with columns for answer, owner and notes — open in Excel or Google Sheets |
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to suggest a change |
 
-PDF version: [Vendor-Risk-Checklist-v1.2.pdf](Vendor-Risk-Checklist-v1.2.pdf). Read online: https://techfinanceadvisor.com/vendor-risk-checklist
+PDF version: [Vendor-Risk-Checklist-v1.3.pdf](Vendor-Risk-Checklist-v1.3.pdf). Read online: https://techfinanceadvisor.com/vendor-risk-checklist
 
 ## How to use it
 
