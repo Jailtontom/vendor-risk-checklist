@@ -1,8 +1,8 @@
 # Vendor Risk Checklist for Community Banks and Credit Unions
 
-A free, open checklist of **45 practical questions** to help community banks and credit unions select, contract, oversee and exit their technology providers (core processing, digital banking, payments).
+A free, open checklist of **50 practical questions** to help community banks and credit unions select, contract, oversee and exit their technology providers (core processing, digital banking, payments).
 
-It turns the U.S. interagency third-party risk guidance into plain questions, organized by the six stages of a provider relationship:
+It turns the U.S. interagency third-party risk guidance into plain questions, organized by the six stages of a provider relationship, plus a section for providers that use AI:
 
 | Stage | Questions |
 |---|---|
@@ -12,6 +12,7 @@ It turns the U.S. interagency third-party risk guidance into plain questions, or
 | 4. Oversight and accountability | 28–32 |
 | 5. Ongoing monitoring | 33–39 |
 | 6. Termination and exit | 40–45 |
+| 7. Providers that use AI | 46–50 |
 
 ## Why it exists
 
@@ -22,7 +23,7 @@ Small institutions depend on a few technology providers, and one provider failur
 | File | What it is |
 |---|---|
 | [CHECKLIST.md](CHECKLIST.md) | The full checklist (read online) |
-| [checklist.csv](checklist.csv) | The 45 questions with columns for answer, owner and notes — open in Excel or Google Sheets |
+| [checklist.csv](checklist.csv) | Questions 1–45 with columns for answer, owner and notes — open in Excel or Google Sheets |
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to suggest a change |
 
@@ -43,6 +44,9 @@ PDF version: [Vendor-Risk-Checklist-v1.2.pdf](Vendor-Risk-Checklist-v1.2.pdf). R
 - Proposed Third-Party Risk Management Guidance, 91 FR 58536 (September 15, 2026).
 - Joint Statement on Community Banks' Engagement with Core Service Providers (September 11, 2026).
 - U.S. Department of Justice, Guidance on Web Accessibility and the ADA (March 2022).
+- Office of the Comptroller of the Currency, Bulletin 2026-13, revised model risk management guidance (April 17, 2026).
+- U.S. Government Accountability Office, GAO-25-107197, Artificial Intelligence: Use and Oversight in Financial Services (May 19, 2025).
+- Consumer Financial Protection Bureau, Circular 2022-03 (May 2022).
 
 ## Practitioner feedback
 
@@ -52,7 +56,7 @@ PDF version: [Vendor-Risk-Checklist-v1.2.pdf](Vendor-Risk-Checklist-v1.2.pdf). R
 
 ## Acknowledgments
 
-Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Any remaining errors are the author's.
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback; this acknowledgment is not an endorsement, regulatory certification or independent validation of the checklist. Any remaining errors are the author's.
 
 ## Feedback
 
