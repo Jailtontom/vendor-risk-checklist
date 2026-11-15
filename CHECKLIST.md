@@ -1,12 +1,12 @@
 # Vendor Risk Checklist for Community Banks and Credit Unions
 
-*Version 1.2 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
+*Version 1.3 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
 
 ## Why this checklist
 
 Community banks and credit unions depend on a small number of technology providers for core processing, digital banking and payments. When one provider fails, many institutions can be affected at once: in late 2023, a ransomware attack on a single technology provider (it began on November 26, 2023, according to the NCUA) disrupted services at roughly 60 credit unions. Large banks have dedicated vendor-management teams; most small institutions do not.
 
-This checklist turns the U.S. interagency third-party risk guidance (2023), the agencies' guide for community banks (2024), the 2026 proposed update and the September 2026 joint statement on core service providers into 45 practical questions, organized by the six stages of a provider relationship. It also covers accessibility for customers who are blind, deaf or hard of hearing, or have speech disabilities.
+This checklist turns the U.S. interagency third-party risk guidance (2023), the agencies' guide for community banks (2024), the 2026 proposed update and the September 2026 joint statement on core service providers into 50 practical questions: 45 organized by the six stages of a provider relationship, plus five for providers that use AI. It also covers accessibility for customers who are blind, deaf or hard of hearing, or have speech disabilities.
 
 ## How to use it
 
@@ -120,6 +120,26 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - [ ] **45.** Could we exit in an emergency (provider failure or major breach), not only at renewal?
 
+## 7. Providers that use AI
+
+*Skip this section if the provider does not use AI or machine-learning models in the services we buy.*
+
+*Before you start: request written answers and available supporting evidence. If the provider cannot answer an important question, document the limitation, who accepts the resulting risk, and when the decision should be reconsidered.*
+
+- [ ] **46.** Does the provider use AI or machine-learning models in the service we buy, which decisions or outputs do they affect (for example, credit, fraud, customer service, monitoring), and can the system take actions, such as freezing an account, denying a transaction, changing a customer record or initiating a payment, without our staff approving each one?
+
+- [ ] **47.** Is any of our customer data used to train or improve the provider's models, or shared with the company that supplies the model (a fourth party), and can we opt out in the contract?
+
+- [ ] **48.** Can the provider explain what its AI outputs mean, their important limitations, and how they affect our decisions? If the service is used in credit decisions, can it provide the information we need to identify the specific reasons for an adverse action?
+
+- [ ] **49.** Can the provider give us a summary of its relevant testing (accuracy, bias and drift), significant findings, limitations and corrective actions, and tell us how often that testing is repeated?
+
+- [ ] **50.** Will the provider notify us before a change that materially affects our service, customers or risk exposure (such as replacing the model or its supplier), as distinct from routine updates? If the AI becomes unavailable or produces unacceptable results, do we have a practical fallback or escalation process?
+
+*Why this section: the federal banking agencies' revised model risk guidance (OCC Bulletin 2026-13, April 17, 2026) applies to vendor and third-party products even when the bank has limited access to code, data or methodology; it does not cover generative or agentic AI and is directed mainly at institutions with significant model-risk exposure. GAO-25-107197 (May 19, 2025) found that AI in financial services can lead to biased lending decisions, data-quality issues and privacy concerns, and that NCUA cannot examine technology service providers. CFPB Circular 2022-03 confirms that creditors must give specific reasons for adverse action even when they use complex algorithms. These questions are practical due-diligence prompts, not specific regulatory mandates.*
+
+*Acknowledgment: Section 7 reflects professional feedback from Neil P. Osnato (Founder, Persistence Analytics Group LLC). This acknowledgment is not an endorsement, regulatory certification or independent validation of the checklist.*
+
 ## Practitioner feedback
 
 > “A thoughtful and practical resource, particularly for smaller institutions that may not have dedicated third-party risk teams.” — Neil P. Osnato, Founder, Persistence Analytics Group LLC
@@ -128,7 +148,7 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 ## Acknowledgments
 
-Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Any remaining errors are the author's.
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback. Any remaining errors are the author's.
 
 ## Disclaimer
 
@@ -148,7 +168,15 @@ This checklist is a free, non-binding operational aid based on public U.S. inter
 
 - U.S. Department of Justice, Guidance on Web Accessibility and the ADA (March 2022): ada.gov/resources/web-guidance
 
+- Office of the Comptroller of the Currency, Bulletin 2026-13, revised model risk management guidance (April 17, 2026).
+
+- U.S. Government Accountability Office, GAO-25-107197, Artificial Intelligence: Use and Oversight in Financial Services (May 19, 2025).
+
+- Consumer Financial Protection Bureau, Circular 2022-03, adverse action notification requirements and complex algorithms (May 2022).
+
 ## Version history
+
+- 1.3 (November 2026): added section 7, "Providers that use AI" (questions 46–50), with a note on its regulatory scope, based on practitioner feedback.
 
 - 1.2 (November 2026): refined questions 4, 9, 31, 35 and 38 and added a note on evidence to "How to use it", based on practitioner feedback; added practitioner feedback and acknowledgments.
 
