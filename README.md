@@ -1,18 +1,18 @@
 # Vendor Risk Checklist for Community Banks and Credit Unions
 
-A free, open checklist of **50 practical questions** to help community banks and credit unions select, contract, oversee and exit their technology providers (core processing, digital banking, payments).
+A free, open checklist of **42 practical questions** to help community banks and credit unions select, contract, oversee and exit their technology providers (core processing, digital banking, payments).
 
 It turns the U.S. interagency third-party risk guidance into plain questions, organized by the six stages of a provider relationship, plus a section for providers that use AI:
 
 | Stage | Questions |
 |---|---|
-| 1. Planning | 1–8 |
-| 2. Due diligence and selection | 9–17 |
-| 3. Contract | 18–27 |
-| 4. Oversight and accountability | 28–32 |
-| 5. Ongoing monitoring | 33–39 |
-| 6. Termination and exit | 40–45 |
-| 7. Providers that use AI | 46–50 |
+| 1. Planning | 1–7 |
+| 2. Due diligence and selection | 8–14 |
+| 3. Contract | 15–22 |
+| 4. Oversight and accountability | 23–26 |
+| 5. Ongoing monitoring | 27–33 |
+| 6. Termination and exit | 34–37 |
+| 7. Providers that use AI | 38–42 |
 
 ## Why it exists
 
@@ -23,11 +23,12 @@ Small institutions depend on a few technology providers, and one provider failur
 | File | What it is |
 |---|---|
 | [CHECKLIST.md](CHECKLIST.md) | The full checklist (read online) |
-| [checklist.csv](checklist.csv) | The 50 questions with columns for answer, owner and notes — open in Excel or Google Sheets |
+| [checklist.csv](checklist.csv) | The 42 questions with columns for answer, owner and notes (and each question's number in v1.3) — open in Excel or Google Sheets |
+| [MAPPING.md](MAPPING.md) | Where each version 1.3 question went in version 1.4 |
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to suggest a change |
 
-PDF version: [Vendor-Risk-Checklist-v1.3.pdf](Vendor-Risk-Checklist-v1.3.pdf). Read online: https://techfinanceadvisor.com/vendor-risk-checklist
+PDF version: [Vendor-Risk-Checklist-v1.4.pdf](Vendor-Risk-Checklist-v1.4.pdf). Earlier versions: [v1.3](Vendor-Risk-Checklist-v1.3.pdf) (50 questions), [v1.2](Vendor-Risk-Checklist-v1.2.pdf). Read online: https://techfinanceadvisor.com/vendor-risk-checklist
 
 ## How to use it
 
@@ -56,7 +57,7 @@ PDF version: [Vendor-Risk-Checklist-v1.3.pdf](Vendor-Risk-Checklist-v1.3.pdf). R
 
 ## Acknowledgments
 
-Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback; this acknowledgment is not an endorsement, regulatory certification or independent validation of the checklist. Any remaining errors are the author's.
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback; this acknowledgment is not an endorsement, regulatory certification or independent validation of the checklist. These are version 1.3 numbers; in version 1.4 the same questions, with unchanged wording, are 4, 8, 26, 29, 32 and 38–42 (see [MAPPING.md](MAPPING.md)). Version 1.4 thanks Jonathan Blair, MISM, MMSC, independent risk management practitioner, for professional feedback (not an endorsement) that shaped the risk-appetite part of question 23 and the internal AI check in section 7. Any remaining errors are the author's.
 
 ## Feedback
 

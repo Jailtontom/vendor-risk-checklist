@@ -1,12 +1,12 @@
 # Vendor Risk Checklist for Community Banks and Credit Unions
 
-*Version 1.3 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
+*Version 1.4 · November 2026 · Jailton de Andrade Raimundo · Tech Finance Advisor (techfinanceadvisor.com)*
 
 ## Why this checklist
 
 Community banks and credit unions depend on a small number of technology providers for core processing, digital banking and payments. When one provider fails, many institutions can be affected at once: in late 2023, a ransomware attack on a single technology provider (it began on November 26, 2023, according to the NCUA) disrupted services at roughly 60 credit unions. Large banks have dedicated vendor-management teams; most small institutions do not.
 
-This checklist turns the U.S. interagency third-party risk guidance (2023), the agencies' guide for community banks (2024), the 2026 proposed update and the September 2026 joint statement on core service providers into 50 practical questions: 45 organized by the six stages of a provider relationship, plus five for providers that use AI. It also covers accessibility for customers who are blind, deaf or hard of hearing, or have speech disabilities.
+This checklist turns the U.S. interagency third-party risk guidance (2023), the agencies' guide for community banks (2024), the 2026 proposed update and the September 2026 joint statement on core service providers into 42 practical questions: 37 organized by the six stages of a provider relationship, plus five for providers that use AI. It also covers accessibility for customers who are blind, deaf or hard of hearing, or have speech disabilities.
 
 ## How to use it
 
@@ -16,6 +16,8 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - Scale the effort to the potential harm: not every provider needs every question.
 
+- Question numbers changed in version 1.4. If you are following an earlier reference (for example, a letter or article citing version 1.3), see MAPPING.md for where each version 1.3 question is now.
+
 - A control that exists is not the same as evidence you can rely on: for your highest-risk providers, check whether the evidence behind each answer supports the decision you are making (to sign, renew or keep relying on the provider).
 
 ## 1. Planning
@@ -24,101 +26,85 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 - [ ] **2.** If this provider is down for one business day, what stops working for customers?
 
-- [ ] **3.** How many realistic alternative providers exist, and how hard would it be to switch?
+- [ ] **3.** How many realistic alternative providers exist, and what would it cost (time, money, conversion work) to switch if we had to leave in three years?
 
 - [ ] **4.** Does this service depend on other providers (cloud, data centers, telecommunications, subcontractors), and do any of our other critical providers depend on the same ones?
 
-- [ ] **5.** Who inside the institution will own this relationship, and do they have time and skills for it?
+- [ ] **5.** Who inside the institution will own this relationship, and do they have the time, skills and training to manage it without depending on the provider's own staff?
 
-- [ ] **6.** What would the exit cost (time, money, conversion work) if we had to leave in three years?
+- [ ] **6.** Is the level of oversight we plan proportionate to the potential harm?
 
-- [ ] **7.** Is the level of oversight we plan proportionate to the potential harm?
-
-- [ ] **8.** Can customers who are blind, deaf or hard of hearing, or have speech disabilities complete key tasks with this service (open an account, pay, get support), including support channels beyond voice such as chat, text and relay services?
+- [ ] **7.** Can customers who are blind, deaf or hard of hearing, or have speech disabilities complete key tasks with this service (open an account, pay, get support), including support channels beyond voice such as chat, text and relay services?
 
 ## 2. Due diligence and selection
 
-- [ ] **9.** Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries, and do the reports' scope, coverage period and exceptions actually cover the services we use?
+- [ ] **8.** Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries, and do the reports' scope, coverage period and exceptions actually cover the services we use?
 
-- [ ] **10.** How many security incidents and outages has the provider had in the last 24 months, and how were they handled?
+- [ ] **9.** How many security incidents and outages has the provider had in the last 24 months, and how were they handled?
 
-- [ ] **11.** Which components of the product are at or near end of support, and what is the upgrade roadmap?
+- [ ] **10.** Which components of the product are at or near end of support, and what is the upgrade roadmap?
 
-- [ ] **12.** Is the provider financially stable enough to support us for the full contract term?
+- [ ] **11.** Is the provider financially stable enough to support us for the full contract term?
 
-- [ ] **13.** Which subcontractors (fourth parties) will handle our data, and where?
+- [ ] **12.** Which subcontractors (fourth parties) will handle our data, and where?
 
-- [ ] **14.** Can we talk to two or three peer institutions of similar size that use this provider?
+- [ ] **13.** Can we talk to two or three peer institutions of similar size that use this provider?
 
-- [ ] **15.** Are pricing and billing clear enough that we can reconcile every invoice line to a service we receive?
-
-- [ ] **16.** For customer-facing products, does the provider publish an Accessibility Conformance Report (VPAT/ACR) stating which WCAG version and level it meets (for example, WCAG 2.1 or 2.2 AA)?
-
-- [ ] **17.** Have the screens been tested with screen readers and keyboard-only navigation, ideally by people with disabilities?
+- [ ] **14.** For customer-facing products, does the provider publish an Accessibility Conformance Report (VPAT/ACR) stating which WCAG version and level it meets (for example, WCAG 2.1 or 2.2 AA), and have the screens been tested with screen readers and keyboard-only navigation, ideally by people with disabilities?
 
 ## 3. Contract
 
-- [ ] **18.** Does the contract state clearly that the institution owns its data?
+- [ ] **15.** Does the contract state clearly that the institution owns its data, and can we export all of it, at any time, in a documented and usable format, at a defined cost?
 
-- [ ] **19.** Can we export all our data, at any time, in a documented and usable format, at a defined cost?
+- [ ] **16.** Are deconversion fees and exit assistance defined in advance, not left open?
 
-- [ ] **20.** Are deconversion fees and exit assistance defined in advance, not left open?
+- [ ] **17.** Are SLAs measurable (availability, response and recovery times) with consequences if missed?
 
-- [ ] **21.** Are SLAs measurable (availability, response and recovery times) with consequences if missed?
+- [ ] **18.** How fast must the provider notify us of a security incident or major outage?
 
-- [ ] **22.** How fast must the provider notify us of a security incident or major outage?
+- [ ] **19.** Are pricing and billing clear enough that we can reconcile every invoice line to a service we receive, and is there a limit on back-billing (retroactive charges for items missing from prior invoices)?
 
-- [ ] **23.** Is there a limit on back-billing (retroactive charges for items missing from prior invoices)?
+- [ ] **20.** Can other providers integrate with the platform through documented APIs, without excessive fees or restrictions?
 
-- [ ] **24.** Can other providers integrate with the platform through documented APIs, without excessive fees or restrictions?
+- [ ] **21.** Do we have audit rights, and will the provider cooperate with regulators?
 
-- [ ] **25.** Do we have audit rights, and will the provider cooperate with regulators?
-
-- [ ] **26.** Does the contract require customer-facing products to meet a defined accessibility standard, with a deadline to fix accessibility defects?
-
-- [ ] **27.** Are statements, notices and disclosures available in accessible formats (screen-reader-friendly documents, large print, captioned video)?
+- [ ] **22.** Does the contract require customer-facing products to meet a defined accessibility standard, with a deadline to fix accessibility defects, and are statements, notices and disclosures available in accessible formats (screen-reader-friendly documents, large print, captioned video)?
 
 ## 4. Oversight and accountability
 
-- [ ] **28.** Does the board or a senior committee know which provider relationships carry the highest risk?
+- [ ] **23.** Have the board and senior management set a clear, practical risk appetite for outsourcing (with simple risk-based limits, such as how much of a critical activity can depend on a single provider), and do they know which provider relationships carry the highest risk?
 
-- [ ] **29.** Is there a single, current inventory of providers, with risk level and owner for each one?
+- [ ] **24.** Is there a single, current inventory of providers, with the risk level, a documented reason for that level, and an owner for each one?
 
-- [ ] **30.** How often are high-risk relationships reviewed, and who signs off?
+- [ ] **25.** How often are high-risk relationships reviewed, and who signs off?
 
-- [ ] **31.** Are issues found with a provider tracked until they are closed, and if a material issue stays open, who has authority to accept it, based on what evidence, and until when?
-
-- [ ] **32.** Is the institution's own staff trained to manage the provider, rather than depending on the provider's own staff?
+- [ ] **26.** Are issues found with a provider tracked until they are closed, and if a material issue stays open, who has authority to accept it, based on what evidence, and until when?
 
 ## 5. Ongoing monitoring
 
-- [ ] **33.** Do we track availability against the agreed SLA every month, with our own measurements?
+- [ ] **27.** Do we track availability against the agreed SLA every month, with our own measurements?
 
-- [ ] **34.** Do we track incident notification times and root-cause reports from the provider?
+- [ ] **28.** Do we track incident notification times and root-cause reports from the provider?
 
-- [ ] **35.** Have recovery and failover been tested in the last 12 months, and did the actual recovery time and data loss meet our own requirements (RTO and RPO)?
+- [ ] **29.** Have recovery and failover been tested in the last 12 months, and did the actual recovery time and data loss meet our own requirements (RTO and RPO)?
 
-- [ ] **36.** Do we review new end-of-support components and security advisories that affect us?
+- [ ] **30.** Do we review new end-of-support components and security advisories that affect us?
 
-- [ ] **37.** Do invoices still reconcile with the services we receive?
+- [ ] **31.** Do invoices still reconcile with the services we receive?
 
-- [ ] **38.** Have the provider's subcontractors, ownership or financial condition changed, and is there a defined trigger to revisit the original risk assessment when they do?
+- [ ] **32.** Have the provider's subcontractors, ownership or financial condition changed, and is there a defined trigger to revisit the original risk assessment when they do?
 
-- [ ] **39.** Do we track accessibility complaints and defects, and does each new release keep the agreed accessibility level?
+- [ ] **33.** Do we track accessibility complaints and defects, and does each new release keep the agreed accessibility level?
 
 ## 6. Termination and exit
 
-- [ ] **40.** Have we ever tested a full data extract, and could another team load it without the provider's help?
+- [ ] **34.** Have we ever tested a full data extract, and are the data and interfaces documented well enough for another team or provider to load and rebuild them without the provider's help?
 
-- [ ] **41.** Are the interfaces documented well enough for another provider to rebuild them?
+- [ ] **35.** Is there a written transition plan with timelines, responsibilities, customer communication, and how long old and new systems can run in parallel?
 
-- [ ] **42.** Is there a written transition plan with timelines, responsibilities and customer communication?
+- [ ] **36.** What happens to our data at the provider after exit (return, deletion, confirmation)?
 
-- [ ] **43.** Can we run old and new systems in parallel during the transition, and for how long?
-
-- [ ] **44.** What happens to our data at the provider after exit (return, deletion, confirmation)?
-
-- [ ] **45.** Could we exit in an emergency (provider failure or major breach), not only at renewal?
+- [ ] **37.** Could we exit in an emergency (provider failure or major breach), not only at renewal?
 
 ## 7. Providers that use AI
 
@@ -126,15 +112,17 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 *Before you start: request written answers and available supporting evidence. If the provider cannot answer an important question, document the limitation, who accepts the resulting risk, and when the decision should be reconsidered.*
 
-- [ ] **46.** Does the provider use AI or machine-learning models in the service we buy, which decisions or outputs do they affect (for example, credit, fraud, customer service, monitoring), and can the system take actions, such as freezing an account, denying a transaction, changing a customer record or initiating a payment, without our staff approving each one?
+*Also check internally: whether our own staff independently check that AI outputs are accurate and valid before relying on them in decisions or workflows, especially where the provider's disclosures or our contract leverage are limited.*
 
-- [ ] **47.** Is any of our customer data used to train or improve the provider's models, or shared with the company that supplies the model (a fourth party), and can we opt out in the contract?
+- [ ] **38.** Does the provider use AI or machine-learning models in the service we buy, which decisions or outputs do they affect (for example, credit, fraud, customer service, monitoring), and can the system take actions, such as freezing an account, denying a transaction, changing a customer record or initiating a payment, without our staff approving each one?
 
-- [ ] **48.** Can the provider explain what its AI outputs mean, their important limitations, and how they affect our decisions? If the service is used in credit decisions, can it provide the information we need to identify the specific reasons for an adverse action?
+- [ ] **39.** Is any of our customer data used to train or improve the provider's models, or shared with the company that supplies the model (a fourth party), and can we opt out in the contract?
 
-- [ ] **49.** Can the provider give us a summary of its relevant testing (accuracy, bias and drift), significant findings, limitations and corrective actions, and tell us how often that testing is repeated?
+- [ ] **40.** Can the provider explain what its AI outputs mean, their important limitations, and how they affect our decisions? If the service is used in credit decisions, can it provide the information we need to identify the specific reasons for an adverse action?
 
-- [ ] **50.** Will the provider notify us before a change that materially affects our service, customers or risk exposure (such as replacing the model or its supplier), as distinct from routine updates? If the AI becomes unavailable or produces unacceptable results, do we have a practical fallback or escalation process?
+- [ ] **41.** Can the provider give us a summary of its relevant testing (accuracy, bias and drift), significant findings, limitations and corrective actions, and tell us how often that testing is repeated?
+
+- [ ] **42.** Will the provider notify us before a change that materially affects our service, customers or risk exposure (such as replacing the model or its supplier), as distinct from routine updates? If the AI becomes unavailable or produces unacceptable results, do we have a practical fallback or escalation process?
 
 *Why this section: the federal banking agencies' revised model risk guidance (OCC Bulletin 2026-13, April 17, 2026) applies to vendor and third-party products even when the bank has limited access to code, data or methodology; it does not cover generative or agentic AI and is directed mainly at institutions with significant model-risk exposure. GAO-25-107197 (May 19, 2025) found that AI in financial services can lead to biased lending decisions, data-quality issues and privacy concerns, and that NCUA cannot examine technology service providers. CFPB Circular 2022-03 confirms that creditors must give specific reasons for adverse action even when they use complex algorithms. These questions are practical due-diligence prompts, not specific regulatory mandates.*
 
@@ -144,11 +132,15 @@ This checklist turns the U.S. interagency third-party risk guidance (2023), the 
 
 > “A thoughtful and practical resource, particularly for smaller institutions that may not have dedicated third-party risk teams.” — Neil P. Osnato, Founder, Persistence Analytics Group LLC
 
+> “It's a helpful, practical starting point for community banks and credit unions, especially with the lifecycle structure, accessibility coverage, and current guidance touchpoints. […] It's already a strong resource for smaller institutions!” — Jonathan Blair, MISM, MMSC, independent risk management practitioner
+
 *Shared as professional feedback. It is not an independent certification or endorsement of the checklist's regulatory completeness.*
 
 ## Acknowledgments
 
-Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback. Any remaining errors are the author's.
+Version 1.2 incorporates suggestions from Neil P. Osnato, Founder, Persistence Analytics Group LLC, Decision Assurance™, on questions 4, 9, 31, 35 and 38 and on the "How to use it" section. Section 7 of version 1.3 (questions 46–50) also reflects his professional feedback. These are version 1.3 numbers; in version 1.4 the same questions, with unchanged wording, are 4, 8, 26, 29, 32 and 38–42 (see MAPPING.md).
+
+Version 1.4 thanks Jonathan Blair, MISM, MMSC, independent risk management practitioner, for professional feedback (not an endorsement) that shaped two additions: a risk appetite for outsourcing, now part of question 23 (Q28 in version 1.3), and an internal check on AI outputs in the introduction to section 7. The documented reason for each provider's risk level (question 24) reflects a point raised by a third-party risk management practitioner. Any remaining errors are the author's.
 
 ## Disclaimer
 
@@ -175,6 +167,10 @@ This checklist is a free, non-binding operational aid based on public U.S. inter
 - Consumer Financial Protection Bureau, Circular 2022-03, adverse action notification requirements and complex algorithms (May 2022).
 
 ## Version history
+
+*Question numbers in each entry refer to that version's numbering.*
+
+- 1.4 (November 2026): shortened from 50 to 42 questions by combining eight pairs of overlapping questions; added a risk appetite for outsourcing (question 23), a documented reason for each provider's risk level (question 24) and an internal check on AI outputs (section 7 introduction), based on practitioner feedback; renumbered the questions. The wording of the questions refined in versions 1.2 and 1.3 with practitioner feedback is unchanged. See MAPPING.md for the full version 1.3 → 1.4 table.
 
 - 1.3 (November 2026): added section 7, "Providers that use AI" (questions 46–50), with a note on its regulatory scope, based on practitioner feedback.
 

@@ -1,51 +1,43 @@
-#,Stage,Question,Answer (Yes/No/Partial),Owner,Notes
-1,Planning,"Which customer data, systems and payment flows will this provider touch?",,,
-2,Planning,"If this provider is down for one business day, what stops working for customers?",,,
-3,Planning,"How many realistic alternative providers exist, and how hard would it be to switch?",,,
-4,Planning,"Does this service depend on other providers (cloud, data centers, telecommunications, subcontractors), and do any of our other critical providers depend on the same ones?",,,
-5,Planning,"Who inside the institution will own this relationship, and do they have time and skills for it?",,,
-6,Planning,"What would the exit cost (time, money, conversion work) if we had to leave in three years?",,,
-7,Planning,Is the level of oversight we plan proportionate to the potential harm?,,,
-8,Planning,"Can customers who are blind, deaf or hard of hearing, or have speech disabilities complete key tasks with this service (open an account, pay, get support), including support channels beyond voice such as chat, text and relay services?",,,
-9,Due diligence and selection,"Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries, and do the reports' scope, coverage period and exceptions actually cover the services we use?",,,
-10,Due diligence and selection,"How many security incidents and outages has the provider had in the last 24 months, and how were they handled?",,,
-11,Due diligence and selection,"Which components of the product are at or near end of support, and what is the upgrade roadmap?",,,
-12,Due diligence and selection,Is the provider financially stable enough to support us for the full contract term?,,,
-13,Due diligence and selection,"Which subcontractors (fourth parties) will handle our data, and where?",,,
-14,Due diligence and selection,Can we talk to two or three peer institutions of similar size that use this provider?,,,
-15,Due diligence and selection,Are pricing and billing clear enough that we can reconcile every invoice line to a service we receive?,,,
-16,Due diligence and selection,"For customer-facing products, does the provider publish an Accessibility Conformance Report (VPAT/ACR) stating which WCAG version and level it meets (for example, WCAG 2.1 or 2.2 AA)?",,,
-17,Due diligence and selection,"Have the screens been tested with screen readers and keyboard-only navigation, ideally by people with disabilities?",,,
-18,Contract,Does the contract state clearly that the institution owns its data?,,,
-19,Contract,"Can we export all our data, at any time, in a documented and usable format, at a defined cost?",,,
-20,Contract,"Are deconversion fees and exit assistance defined in advance, not left open?",,,
-21,Contract,"Are SLAs measurable (availability, response and recovery times) with consequences if missed?",,,
-22,Contract,How fast must the provider notify us of a security incident or major outage?,,,
-23,Contract,Is there a limit on back-billing (retroactive charges for items missing from prior invoices)?,,,
-24,Contract,"Can other providers integrate with the platform through documented APIs, without excessive fees or restrictions?",,,
-25,Contract,"Do we have audit rights, and will the provider cooperate with regulators?",,,
-26,Contract,"Does the contract require customer-facing products to meet a defined accessibility standard, with a deadline to fix accessibility defects?",,,
-27,Contract,"Are statements, notices and disclosures available in accessible formats (screen-reader-friendly documents, large print, captioned video)?",,,
-28,Oversight and accountability,Does the board or a senior committee know which provider relationships carry the highest risk?,,,
-29,Oversight and accountability,"Is there a single, current inventory of providers, with risk level and owner for each one?",,,
-30,Oversight and accountability,"How often are high-risk relationships reviewed, and who signs off?",,,
-31,Oversight and accountability,"Are issues found with a provider tracked until they are closed, and if a material issue stays open, who has authority to accept it, based on what evidence, and until when?",,,
-32,Oversight and accountability,"Is the institution's own staff trained to manage the provider, rather than depending on the provider's own staff?",,,
-33,Ongoing monitoring,"Do we track availability against the agreed SLA every month, with our own measurements?",,,
-34,Ongoing monitoring,Do we track incident notification times and root-cause reports from the provider?,,,
-35,Ongoing monitoring,"Have recovery and failover been tested in the last 12 months, and did the actual recovery time and data loss meet our own requirements (RTO and RPO)?",,,
-36,Ongoing monitoring,Do we review new end-of-support components and security advisories that affect us?,,,
-37,Ongoing monitoring,Do invoices still reconcile with the services we receive?,,,
-38,Ongoing monitoring,"Have the provider's subcontractors, ownership or financial condition changed, and is there a defined trigger to revisit the original risk assessment when they do?",,,
-39,Ongoing monitoring,"Do we track accessibility complaints and defects, and does each new release keep the agreed accessibility level?",,,
-40,Termination and exit,"Have we ever tested a full data extract, and could another team load it without the provider's help?",,,
-41,Termination and exit,Are the interfaces documented well enough for another provider to rebuild them?,,,
-42,Termination and exit,"Is there a written transition plan with timelines, responsibilities and customer communication?",,,
-43,Termination and exit,"Can we run old and new systems in parallel during the transition, and for how long?",,,
-44,Termination and exit,"What happens to our data at the provider after exit (return, deletion, confirmation)?",,,
-45,Termination and exit,"Could we exit in an emergency (provider failure or major breach), not only at renewal?",,,
-46,Providers that use AI,"Does the provider use AI or machine-learning models in the service we buy, which decisions or outputs do they affect (for example, credit, fraud, customer service, monitoring), and can the system take actions, such as freezing an account, denying a transaction, changing a customer record or initiating a payment, without our staff approving each one?",,,
-47,Providers that use AI,"Is any of our customer data used to train or improve the provider's models, or shared with the company that supplies the model (a fourth party), and can we opt out in the contract?",,,
-48,Providers that use AI,"Can the provider explain what its AI outputs mean, their important limitations, and how they affect our decisions? If the service is used in credit decisions, can it provide the information we need to identify the specific reasons for an adverse action?",,,
-49,Providers that use AI,"Can the provider give us a summary of its relevant testing (accuracy, bias and drift), significant findings, limitations and corrective actions, and tell us how often that testing is repeated?",,,
-50,Providers that use AI,"Will the provider notify us before a change that materially affects our service, customers or risk exposure (such as replacing the model or its supplier), as distinct from routine updates? If the AI becomes unavailable or produces unacceptable results, do we have a practical fallback or escalation process?",,,
+#,Stage,Question,Answer (Yes/No/Partial),Owner,Notes,Number in v1.3
+1,Planning,"Which customer data, systems and payment flows will this provider touch?",,,,1
+2,Planning,"If this provider is down for one business day, what stops working for customers?",,,,2
+3,Planning,"How many realistic alternative providers exist, and what would it cost (time, money, conversion work) to switch if we had to leave in three years?",,,,3 + 6
+4,Planning,"Does this service depend on other providers (cloud, data centers, telecommunications, subcontractors), and do any of our other critical providers depend on the same ones?",,,,4
+5,Planning,"Who inside the institution will own this relationship, and do they have the time, skills and training to manage it without depending on the provider's own staff?",,,,5 + 32
+6,Planning,Is the level of oversight we plan proportionate to the potential harm?,,,,7
+7,Planning,"Can customers who are blind, deaf or hard of hearing, or have speech disabilities complete key tasks with this service (open an account, pay, get support), including support channels beyond voice such as chat, text and relay services?",,,,8
+8,Due diligence and selection,"Will the provider share recent independent security reports (for example, SOC 2 Type II) and penetration test summaries, and do the reports' scope, coverage period and exceptions actually cover the services we use?",,,,9
+9,Due diligence and selection,"How many security incidents and outages has the provider had in the last 24 months, and how were they handled?",,,,10
+10,Due diligence and selection,"Which components of the product are at or near end of support, and what is the upgrade roadmap?",,,,11
+11,Due diligence and selection,Is the provider financially stable enough to support us for the full contract term?,,,,12
+12,Due diligence and selection,"Which subcontractors (fourth parties) will handle our data, and where?",,,,13
+13,Due diligence and selection,Can we talk to two or three peer institutions of similar size that use this provider?,,,,14
+14,Due diligence and selection,"For customer-facing products, does the provider publish an Accessibility Conformance Report (VPAT/ACR) stating which WCAG version and level it meets (for example, WCAG 2.1 or 2.2 AA), and have the screens been tested with screen readers and keyboard-only navigation, ideally by people with disabilities?",,,,16 + 17
+15,Contract,"Does the contract state clearly that the institution owns its data, and can we export all of it, at any time, in a documented and usable format, at a defined cost?",,,,18 + 19
+16,Contract,"Are deconversion fees and exit assistance defined in advance, not left open?",,,,20
+17,Contract,"Are SLAs measurable (availability, response and recovery times) with consequences if missed?",,,,21
+18,Contract,How fast must the provider notify us of a security incident or major outage?,,,,22
+19,Contract,"Are pricing and billing clear enough that we can reconcile every invoice line to a service we receive, and is there a limit on back-billing (retroactive charges for items missing from prior invoices)?",,,,15 + 23
+20,Contract,"Can other providers integrate with the platform through documented APIs, without excessive fees or restrictions?",,,,24
+21,Contract,"Do we have audit rights, and will the provider cooperate with regulators?",,,,25
+22,Contract,"Does the contract require customer-facing products to meet a defined accessibility standard, with a deadline to fix accessibility defects, and are statements, notices and disclosures available in accessible formats (screen-reader-friendly documents, large print, captioned video)?",,,,26 + 27
+23,Oversight and accountability,"Have the board and senior management set a clear, practical risk appetite for outsourcing (with simple risk-based limits, such as how much of a critical activity can depend on a single provider), and do they know which provider relationships carry the highest risk?",,,,28
+24,Oversight and accountability,"Is there a single, current inventory of providers, with the risk level, a documented reason for that level, and an owner for each one?",,,,29
+25,Oversight and accountability,"How often are high-risk relationships reviewed, and who signs off?",,,,30
+26,Oversight and accountability,"Are issues found with a provider tracked until they are closed, and if a material issue stays open, who has authority to accept it, based on what evidence, and until when?",,,,31
+27,Ongoing monitoring,"Do we track availability against the agreed SLA every month, with our own measurements?",,,,33
+28,Ongoing monitoring,Do we track incident notification times and root-cause reports from the provider?,,,,34
+29,Ongoing monitoring,"Have recovery and failover been tested in the last 12 months, and did the actual recovery time and data loss meet our own requirements (RTO and RPO)?",,,,35
+30,Ongoing monitoring,Do we review new end-of-support components and security advisories that affect us?,,,,36
+31,Ongoing monitoring,Do invoices still reconcile with the services we receive?,,,,37
+32,Ongoing monitoring,"Have the provider's subcontractors, ownership or financial condition changed, and is there a defined trigger to revisit the original risk assessment when they do?",,,,38
+33,Ongoing monitoring,"Do we track accessibility complaints and defects, and does each new release keep the agreed accessibility level?",,,,39
+34,Termination and exit,"Have we ever tested a full data extract, and are the data and interfaces documented well enough for another team or provider to load and rebuild them without the provider's help?",,,,40 + 41
+35,Termination and exit,"Is there a written transition plan with timelines, responsibilities, customer communication, and how long old and new systems can run in parallel?",,,,42 + 43
+36,Termination and exit,"What happens to our data at the provider after exit (return, deletion, confirmation)?",,,,44
+37,Termination and exit,"Could we exit in an emergency (provider failure or major breach), not only at renewal?",,,,45
+38,Providers that use AI,"Does the provider use AI or machine-learning models in the service we buy, which decisions or outputs do they affect (for example, credit, fraud, customer service, monitoring), and can the system take actions, such as freezing an account, denying a transaction, changing a customer record or initiating a payment, without our staff approving each one?",,,,46
+39,Providers that use AI,"Is any of our customer data used to train or improve the provider's models, or shared with the company that supplies the model (a fourth party), and can we opt out in the contract?",,,,47
+40,Providers that use AI,"Can the provider explain what its AI outputs mean, their important limitations, and how they affect our decisions? If the service is used in credit decisions, can it provide the information we need to identify the specific reasons for an adverse action?",,,,48
+41,Providers that use AI,"Can the provider give us a summary of its relevant testing (accuracy, bias and drift), significant findings, limitations and corrective actions, and tell us how often that testing is repeated?",,,,49
+42,Providers that use AI,"Will the provider notify us before a change that materially affects our service, customers or risk exposure (such as replacing the model or its supplier), as distinct from routine updates? If the AI becomes unavailable or produces unacceptable results, do we have a practical fallback or escalation process?",,,,50
